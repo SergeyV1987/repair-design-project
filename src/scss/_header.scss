@@ -1,0 +1,57 @@
+.header {
+  background-color: $black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+  padding: 24px 100px 22px 82px;
+}
+
+.logo h1 {
+  color: $sand;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.navigation ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation a {
+  margin: 0 14px;
+  display: flex;
+  color: $white;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 16px;
+  padding: 0 2px;
+  &:hover {
+    color: $sand;
+  }
+}
+
+.phone input {
+  width: 126px;
+  background: transparent;
+  border: none;
+  color: $sand;
+  border-bottom: 1px solid $sand;
+  &::placeholder {
+    color: $sand;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: right;
+  }
+}
+
+.phone__button {
+  width: 161px;
+  height: 37px;
+  margin-left: 45px;
+  color: white;
+  background-color: $sand;
+  border: none;
+  border-radius: 2px;
+  box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+}

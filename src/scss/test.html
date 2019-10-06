@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>.block {
+        width:  200px;
+        height: 200px;
+        border-radius: 50%;
+        background: #3ac;
+        position: relative;
+        animation: anime 5s linear 2s infinite alternate;
+    }
+    .block::before, .block::after {
+        content: '';
+        position: absolute;
+        width: 30px;
+        height: 40px;
+        border-radius: 50%;
+        background: #000;
+        top: 40px;
+        animation: eye 3s ease-in-out infinite;
+        -webkit-animation: eye 3s ease-in-out infinite;
+    }
+    .block::before { left: 55px; }
+    .block::after { right: 55px; }
+
+    @keyframes anime {
+        0% {
+            background: #3ac;
+        }
+        10% {
+            background: red;
+
+        }
+        60% {
+            background: #E3B873;
+        }
+        80% { background: darkmagenta}
+        100% { background: chartreuse}
+    }
+
+    </style>
+</head>
+<body>
+<div class="block">
+
+</div>
+</body>
+</html>

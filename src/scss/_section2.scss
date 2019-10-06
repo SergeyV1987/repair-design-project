@@ -1,0 +1,103 @@
+.section2 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 98px;
+  height: 960px;;
+  background-color: darkgrey;
+}
+
+.section2__completed {
+  width: 490px;
+  background-color: red;
+  margin-left: 126px;
+  padding-top: 56px;
+  height: 490px;
+}
+
+.section2__completed h3 {
+  font-family: $font-yeseva;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 27px;
+  line-height: 37px;
+  text-transform: uppercase;
+  color: $sand;
+  margin-right: 120px;
+  letter-spacing: -0.07em;
+}
+
+.section2__completed p {
+  font-size: 18px;
+  line-height: 29px;
+  color: $white;
+  margin-right: 60px;
+  margin-top: 34px;
+}
+
+.section2__choosenProject {
+  margin-top: 42px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section2__describe {
+  width: 50%;
+  height: 100px;
+}
+
+.section2__describe p {
+  margin-top: 10px;
+
+}
+
+.section2__project {
+  background-color: black;
+  width: 770px;
+  height: 490px;
+
+}
+
+.section2__choosenProject h4 {
+  font-family: $font-yeseva;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: $sand;
+}
+
+.section2__choosenProject P {
+  font-size: 15px;
+  line-height: 20px;
+  color: $white
+}
+
+.section2__project ul {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 70px;
+  margin-bottom: 45px;
+}
+
+.section2__project a {
+  display: flex;
+  font-family: $font-yeseva;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.3);
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  &:hover {
+    color: $sand;
+    border-bottom: 2px solid $sand;
+  }
+}
+
+.project__slider {
+  height: 425px;
+  background-image: url("../assets/img/section2.1.jpg");
+}

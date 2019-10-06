@@ -1,0 +1,93 @@
+.section1 {
+  position: relative;
+  display: flex;
+  background-color: $black;
+  margin: 0 auto;
+}
+
+.section1__inst {
+  width: 5%;
+}
+
+.section1__inst h3 {
+  transform: rotate(90deg);
+  margin-top: 320px;
+}
+
+.section1__inst a {
+  color: $sand;
+  text-decoration: none;
+}
+
+.section1__content {
+  height: 707px;
+  width: 95%;
+  background-image: url("../assets/img/section1.png");
+}
+
+.section1__description {
+  padding-top: 194px;
+  padding-left: 60px;
+  width: 525px;
+}
+
+.section1__description h2 {
+  font-family: $font-yeseva;
+  text-transform: uppercase;
+  font-size: 40px;
+  line-height: 53px;
+  color: $white;
+}
+
+.section1__description p {
+  margin-top: 19px;
+  margin-bottom: 41px;
+  width: 435px;
+  font-size: 22px;
+  line-height: 30px;
+  color: $white;
+}
+
+.description__button {
+  width: 207px;
+  height: 51px;
+  border: 2px solid $white;
+  border-radius: 2px;
+  color: $white;
+  text-transform: uppercase;
+  background: transparent;
+  margin-right: 20px;
+  &:hover {
+    background-color: $sand;
+    border: none;
+  }
+}
+
+.section1__description span {
+  color: $sand;
+}
+
+.section1__scroll {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 247px;
+  background-color: black;
+  height: 97px;
+  bottom: -48px;
+}
+
+.section1__button {
+  font-family: $font-yeseva;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 19px;
+  color: $white;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
