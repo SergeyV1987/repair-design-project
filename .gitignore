@@ -3,5 +3,5 @@ node_modules
 app.bundle.js
 app.bundle.js.map
 npm-debug*
-dist
-.idea
+dist/
+.idea/

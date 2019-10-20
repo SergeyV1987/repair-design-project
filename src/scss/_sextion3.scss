@@ -1,66 +1,101 @@
 .section3 {
-  background-color: burlywood;
+  background-color: $white;
   height: 585px;
   position: relative;
+
+  .control {
+    position: absolute;
+    top: -300px;
+    text-align: center;
+
+    h3 {
+      font-family: $font-yeseva;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 28px;
+      text-align: center;
+      text-transform: uppercase;
+      color: $white;
+    }
+
+    img {
+      margin: 12px 0;
+    }
+
+    .control__description {
+      width: 50%;
+      margin: 0 auto;
+      padding-top: 50px;
+
+      hr {
+        width: 40px;
+        border: 1px solid $sand;
+        margin-bottom: 35px;
+      }
+
+      p {
+        font-size: 20px;
+        line-height: 34px;
+        text-align: center;
+        color: $black;
+      }
+    }
+
+    .controll__form {
+      display: flex;
+      justify-content: space-between;
+      margin: 0 auto;
+      text-align: left;
+      margin-top: 91px;
+      width: 50%;
+
+      p {
+        font-size: 15px;
+        line-height: 20px;
+        color: rgba(54, 54, 54, 0.5);
+        text-transform: capitalize;
+      }
+
+      input {
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid gray;
+        background-color: transparent;
+        font-size: 18px;
+        line-height: 24px;
+        color: $black;
+        text-transform: capitalize;
+      }
+
+      button {
+        padding: 8px 50px;
+        font-size: 15px;
+        line-height: 26px;
+        text-align: center;
+        text-transform: uppercase;
+        color: $white;
+        background-color: $sand;
+        border: none;
+        cursor: pointer;
+      }
+    }
+
+    .control__form2 {
+      display: flex;
+      justify-content: center;
+      margin-top: 15px;
+
+      input {
+        width: 20px;
+        height: 20px;
+      }
+
+      span {
+        padding: 5px 0 0 5px;
+      }
+    }
+  }
 }
 
-.control {
-  position: absolute;
-  width: 815px;
-  height: 885px;
-  background-color: green;
-  left: 311px;
-  top: -300px;
-}
 
-.control__logo {
-  width: 196px;
-  margin: 0 auto;
-  height: 67px;
-  background-color: red;
-}
-
-.control__logo h3 {
-  font-family: $font-yeseva;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 28px;
-  text-align: center;
-  text-transform: uppercase;
-  color: $white
-}
-
-.controlLogo__img {
-  padding-left: 80px;
-}
-
-.control__description {
-  padding: 40px 90px 0 90px;
-}
-
-.control__description hr {
-  width: 40px;
-  border: 1px solid $sand;
-  margin-bottom: 35px;
-}
-
-.control__description p {
-  font-size: 20px;
-  line-height: 34px;
-  text-align: center;
-  color: $black
-}
-
-.controll__form {
-  width: 769px;
-  margin: 0 auto;
-  text-align: center;
-  margin-top: 91px;
-}
-
-.control__form2 {
-  display: flex;
-  justify-content: center;
-  margin-top: 15px;
-}
